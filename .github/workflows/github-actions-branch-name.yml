@@ -8,4 +8,4 @@ jobs:
       - uses: deepakputhraya/action-branch-name@master
         with:
           regex: '^[A-Z]{2,}-[0-9]+-[-a-zA-Z0-9]+$' # Regex the branch should match.
-          ignore: master # Ignore exactly matching branch names from convention
+          ignore: master,release-v* # Ignore exactly matching branch names from convention
